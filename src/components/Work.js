@@ -1,14 +1,5 @@
 import styledComponents from "styled-components";
-import {
-  Box,
-  Con,
-  ConWrap,
-  Desc,
-  sectionSt,
-  Title,
-  Wrap,
-  wrapSt,
-} from "../style/styles";
+import { Box, Con, ConWrap, Desc, Title, Wrap } from "../style/workStyles";
 
 // const Wrap = styledComponents.div`
 // width: `
