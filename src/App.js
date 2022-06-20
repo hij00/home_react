@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 import reset from "styled-reset";
+import { EventMe } from "./components/6_H_Event/EventMe";
 import { Menus } from "./components/Menus";
 import { MusicApp } from "./components/MusicApp";
 import { MusicHome } from "./components/MusicHome";
@@ -14,7 +15,8 @@ function App() {
       {/* <Menus menu={menuName} /> */}
       {/* <Work workName={workDb} /> */}
       {/* <MusicApp /> */}
-      <MusicHome />
+      {/* <MusicHome /> */}
+      <EventMe />
     </>
   );
 }

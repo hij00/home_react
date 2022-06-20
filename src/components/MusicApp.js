@@ -48,8 +48,8 @@ export const MusicApp = () => {
         <Con>
           <Icon>
             <FontAwesomeIcon icon={faCircleChevronDown} />
-            {/* 1. 폰트어썸 html코드복사(링크를 한번 거치기 때문에 느려짐) 2.
-            폰트어썸 확장프로그램 깔고 불러오기 */}
+            {/* 1. 폰트어썸 html코드복사(링크를 한번 거치기 때문에 느려짐) 
+            2. 폰트어썸 확장프로그램 깔고 불러오기 */}
             <FontAwesomeIcon icon={faBars} />
           </Icon>
           <Album />
