@@ -4,6 +4,7 @@ import { EventMe } from "./components/6_H_Event/EventMe";
 import { Menus } from "./components/Menus";
 import { MusicApp } from "./components/MusicApp";
 import { MusicHome } from "./components/MusicHome";
+import { Routers } from "./components/7_Router/Routers";
 import { Work } from "./components/Work";
 import { workDb } from "./db";
 import { GloalStyled } from "./style/styles";
@@ -16,7 +17,8 @@ function App() {
       {/* <Work workName={workDb} /> */}
       {/* <MusicApp /> */}
       {/* <MusicHome /> */}
-      <EventMe />
+      {/* <EventMe /> */}
+      <Routers />
     </>
   );
 }

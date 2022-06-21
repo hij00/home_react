@@ -11,7 +11,6 @@ export const MusicHome = () => {
       <Con>
         <TitleWrap>
           <Name></Name>
-          <Font />
         </TitleWrap>
       </Con>
     </Back>
