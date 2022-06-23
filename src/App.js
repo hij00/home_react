@@ -7,18 +7,20 @@ import { MusicHome } from "./components/MusicHome";
 import { Routers } from "./components/7_Router/Routers";
 import { Work } from "./components/Work";
 import { workDb } from "./db";
-import { GloalStyled } from "./style/styles";
+import { MakeMe } from "./components/8_MakeMe/MakeMe";
+import { GlobalStyle } from "./GlobalStyle";
 
 function App() {
   return (
     <>
-      <GloalStyled />
+      <GlobalStyle />
       {/* <Menus menu={menuName} /> */}
       {/* <Work workName={workDb} /> */}
       {/* <MusicApp /> */}
       {/* <MusicHome /> */}
       {/* <EventMe /> */}
-      <Routers />
+      {/* <Routers /> */}
+      <MakeMe />
     </>
   );
 }
