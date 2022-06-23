@@ -3,12 +3,10 @@ import styled from "styled-components";
 
 const Section1 = styled.div`
   height: 600px;
-  padding: 0 250px;
+  padding: 0 0 0 250px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: url(https://cdn-cms.packative.com/wp-content/uploads/2021/05/27135136/%ED%99%94%EC%9E%A5%ED%92%88-%ED%8C%A9-%EB%B0%8F-%EB%A7%88%EC%8A%A4%ED%81%AC-%ED%8F%AC%EC%9E%A5-%EB%8B%A8%EC%83%81%EC%9E%90-1024x575.png)
-    no-repeat right / cover;
 `;
 const TextWrap = styled.div`
   margin-top: 20px;
@@ -33,8 +31,10 @@ const BtnMore = styled.div`
 `;
 const ImgBg = styled.div``;
 const Bg = styled.div`
-  width: 400px;
+  width: 1000px;
   height: 600px;
+  background: url(http://www.cmn.co.kr/webupload/ckeditor/images/20210809_135301_0515545.jpg)
+    no-repeat right / cover;
 `;
 
 export const Main = () => {

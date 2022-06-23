@@ -9,6 +9,7 @@ import { Work } from "./components/Work";
 import { workDb } from "./db";
 import { MakeMe } from "./components/8_MakeMe/MakeMe";
 import { GlobalStyle } from "./GlobalStyle";
+import { db } from "./components/8_MakeMe/db";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
       {/* <MusicHome /> */}
       {/* <EventMe /> */}
       {/* <Routers /> */}
-      <MakeMe />
+      <MakeMe data={db} />
     </>
   );
 }
